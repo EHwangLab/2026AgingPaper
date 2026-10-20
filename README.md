@@ -1,6 +1,6 @@
 # Aging PPC figure reproduction
 
-This repository contains the standalone notebook used to reproduce the main and supplementary figures for the Hwang Lab aging/PPC study. It generates 82 SVG figures and 132 CSV source/statistics tables in `outputs/` while preserving the plotting procedures used for the paper.
+This repository contains the standalone notebook used to reproduce the main and supplementary figures for the Hwang Lab aging/PPC study. It generates 88 SVG figures and 147 CSV source/statistics tables in `outputs/` while preserving the plotting procedures used for the paper.
 
 ## Quick start
 
