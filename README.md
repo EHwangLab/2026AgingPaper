@@ -22,13 +22,13 @@ python -m jupyter lab HwangLab_Aging_PPC_Figures.ipynb
 
 On Windows, activate the environment with `.venv\Scripts\activate` instead of `source .venv/bin/activate`.
 
-In JupyterLab, select **Python 3.12 (2026 Aging)** and choose **Run → Run All Cells**. If `HwangLab_Aging_Data/` is not already beside the notebook, the first code cell downloads and extracts [HwangLab_Aging_Data.zip](https://zenodo.org/records/22131935/files/HwangLab_Aging_Data.zip?download=1) from Zenodo.
+In JupyterLab, select **Python 3.12 (2026 Aging)** and choose **Run → Run All Cells**. If `HwangLab_Aging_Data/` is not already beside the notebook, the first code cell downloads and extracts `HwangLab_Aging_Data.zip` from the latest published version on [Zenodo](https://doi.org/10.5281/zenodo.22131934).
 
 A complete run takes approximately three minutes on the validation workstation and generates about 75 MB of output. Download and extraction time depends on the network and storage system.
 
 ## Data
 
-The publication dataset will be available from [Zenodo (DOI: 10.5281/zenodo.22131935)](https://doi.org/10.5281/zenodo.22131935). The notebook uses a local `HwangLab_Aging_Data/` directory when present and otherwise downloads the archive from Zenodo. Input data are not modified.
+The publication dataset is available from [Zenodo (DOI: 10.5281/zenodo.22131934)](https://doi.org/10.5281/zenodo.22131934). This DOI points to the latest published version. The notebook resolves that version and verifies the ZIP against its published size and checksum. It uses an existing local `HwangLab_Aging_Data/` directory unchanged; to explicitly replace it with the latest release, run `download_data(force=True)` from the setup cell. Input data are not modified by the analyses.
 
 ## Reproducibility environments
 
